@@ -152,9 +152,15 @@ iframe#twitter-widget-0 {
 }
 
 .github-corner {
+<<<<<<< HEAD
   fill:#151513;
   color:#fff;
   position: fixed;
+=======
+  fill: #151513;
+  color: #fff;
+  position: absolute;
+>>>>>>> 819b2d39a21c8849e0a785b0461672b00c6be33a
   top: 0;
   border: 0;
   right: 0;
@@ -164,7 +170,37 @@ iframe#twitter-widget-0 {
   transform-origin: 130px 106px;
 }
 
-.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  
+  20%,
+  60% {
+    transform: rotate(-25deg);
+  }
+
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
+}
+
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+}
+
 
 @media (min-width: 30rem) {
   html {
