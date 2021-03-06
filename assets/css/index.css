@@ -152,15 +152,9 @@ iframe#twitter-widget-0 {
 }
 
 .github-corner {
-<<<<<<< HEAD
-  fill:#151513;
-  color:#fff;
-  position: fixed;
-=======
   fill: #151513;
   color: #fff;
   position: absolute;
->>>>>>> 819b2d39a21c8849e0a785b0461672b00c6be33a
   top: 0;
   border: 0;
   right: 0;
@@ -179,7 +173,7 @@ iframe#twitter-widget-0 {
   100% {
     transform: rotate(0);
   }
-  
+
   20%,
   60% {
     transform: rotate(-25deg);
