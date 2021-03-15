@@ -15,6 +15,23 @@ body {
   color: #333;
 }
 
+* {
+    font-family: 'Palanquin', sans-serif;
+    scrollbar-color: #151513 white;
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #151513;
+}
+
 a {
   color: #0074d9; /* From http://clrs.cc */
   text-decoration: none;
