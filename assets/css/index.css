@@ -16,8 +16,7 @@ body {
 }
 
 * {
-    font-family: 'Palanquin', sans-serif;
-    scrollbar-color: #151513 white;
+    scrollbar-color: #606060 #181818;
 }
 
 ::-webkit-scrollbar {
@@ -25,11 +24,11 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: none;
+  background: #181818;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #151513;
+  background-color: #606060;
 }
 
 a {
